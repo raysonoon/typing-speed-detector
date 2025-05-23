@@ -32,14 +32,14 @@ body {
     font-size: 16px;
     padding: 10px;
     margin-bottom: 20px;
-    color: white;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: none;
 }
 
 ::placeholder {
-    color: rgb(202, 202, 202);
+    color: rgb(61, 61, 61);
 }
 
 .stats {

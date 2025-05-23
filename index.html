@@ -9,13 +9,14 @@
 <body>
     <div class="box">
         <h1>Typing Speed Test</h1>
-        <h2>Press Start to begin typing</h2>
+        <h2 id="txt">Press Start to begin typing</h2>
         <textarea id="input" placeholder="Start typing here..." disabled></textarea>
         <div class="stats">
-            <p id="time">Time: 0s</p>
+            <p id="tm">Time: 0s</p>
             <p id="wpm">WPM: 0</p>
-            <button>Start Test</button>
+            <button id="start">Start Test</button>
         </div>
     </div>
+    <script src="typing.js"></script>
 </body>
 </html>
